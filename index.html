@@ -3,19 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 		<title>Bahar's Portfolio</title>
-		<link rel="stylesheet" type="text/css" href="/assets/css/reset.css">
-		<link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
 
-	<header>
+<header>
 		<!-- name -->
-		<section>
+		<section id="name">
 			<h1>Bahar Rostami</h1>
 		</section>
 
 		<!-- nav bar -->
-		<section>
+		<section id="nav">
 			<nav>
 				<a href=“#”>About</a>
 				<a href=“#”>Portfolio</a>
@@ -24,30 +23,46 @@
 		</section>
 	</header>
 
-	<div>
+<body>
+	
+	
+
+	<div id="main-body">
 		<!-- main content section -->
-		<section>
-			<div>
+		<section class="content-area" id="main-content">
+			<div class="content-heading">
 				<h2>About Me</h2>
 			</div>
 
 			<div>
-				<img src="">
+				<img id="content-photo" src="assets/images/profile-photo.jpg" alt="Profile Photo">
 				<p>
-					Text
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget nulla egestas, euismod nunc vel, varius risus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque pretium nisi a tincidunt bibendum. Praesent accumsan mauris libero. 
+				</p>
+				<p>
+					Nam feugiat placerat metus, ac facilisis elit dapibus in. Morbi non rhoncus elit. Pellentesque facilisis, felis commodo pharetra viverra, felis tortor sagittis enim, sit amet convallis augue diam ut erat. Nam eu porttitor metus. Praesent eget lobortis nulla.
 				</p>
 			</div>
 		</section>
 
 		<!-- connect with me -->
-		<aside>
+		<aside class="content-area" id="connect">
+			<div class="content-heading">
+				<h3>Connect with Me</h3>
+			</div>
+
+			<div id="connect-icons">
+				<img src="assets/images/icon-github.png" alt="github icon">
+				<img src="assets/images/icon-linkedin.png" alt="linkedin icon">
+				<img src="assets/images/icon-stackoverflow.png" alt="stackoverflow icon">
+			</div>
 			
 		</aside>
 	</div>
 
 	<footer>
 		<!-- sticky footer -->
-		<p>&copy; Copyright 2017 Bahar Rostami</p>
+		<p id="footer-text">&copy; Copyright 2017 Bahar Rostami</p>
 		
 	</footer>
 
