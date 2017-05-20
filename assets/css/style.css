@@ -148,16 +148,12 @@ footer {
 }
 
 .portfolio-container {
-	padding: 10px 0px;
-	display: inline-block;
-
+	display: block;
+	clear: both;
 }
 
 .portfolio-item {
-	width: 200px;
-	height: 150px;*/
-	width: 50%;
-	padding: 20px;
+	width: 40%;
 	display: inline-block;
 
 
@@ -170,9 +166,15 @@ footer {
 	font-size: 14px;
 	text-align: center;
 	display: block;
-	padding: 10px;
-}
+	width: 200px;
+	z-index: 1;
+	position: relative;
+	bottom: 50px;}
 
+.portfolio-image {
+	width: 200px;
+	height: 150px;
+}
 /* Sidebar */
 
 aside {
