@@ -60,6 +60,7 @@ footer {
     bottom: 0;
     height: 50px;
     width: 100%;
+    z-index: 3;
 }
 
 #header {
@@ -144,17 +145,27 @@ footer {
 /* Portfolio */
 
 .content-portfolio {
+	padding: 20px;
 
 }
 
 .portfolio-container {
 	display: block;
 	clear: both;
+  	text-align: justify;
+  	line-height: 0;
+}
+
+.portfolio-container:after {
+	content: '';
+	width: 100%;
+	display: inline-block;
 }
 
 .portfolio-item {
 	width: 40%;
 	display: inline-block;
+	padding: 0 25px 0 5px;
 
 
 }
@@ -165,16 +176,29 @@ footer {
 	color: #ffffff;
 	font-size: 14px;
 	text-align: center;
-	display: block;
-	width: 200px;
-	z-index: 1;
+	line-height: 50px;
+	width: 250px;
+	z-index: 2;
 	position: relative;
-	bottom: 50px;}
+	bottom: 60px;
+	display: inline-block;
+}
 
 .portfolio-image {
-	width: 200px;
-	height: 150px;
+	width: 250px;
+	height: 187.5px;
+	display: inline-block;
+
 }
+
+.portfolio-link {
+	font-family: Georgia, Times, "Time New Roman", serif;
+	font-size: 18px;
+	font-weight: normal;
+	color: #ffffff;
+	text-decoration: none;
+}
+
 /* Sidebar */
 
 aside {
