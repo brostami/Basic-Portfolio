@@ -107,13 +107,13 @@ footer {
   	position:relative;
   	width: 950px;
   	background-image: url("../images/cubes.png");
-
 }
 
 /* Body */
 .content-area {
 	background: #ffffff;
 	border: 1px solid #dddddd;
+
 }
 
 .content-heading {
@@ -140,6 +140,10 @@ footer {
 
 .content-text p:first-of-type {
 	padding-top: 12px;
+}
+
+.content-text {
+	margin-bottom: 50px;
 }
 
 /* Portfolio */
@@ -271,4 +275,11 @@ button {
 	display: block;
 	padding: 10px;
 
+}
+
+#clear {
+	margin-bottom: 50px;
+	line-height: 50px;
+	clear: both;
+	z-index: 4;
 }
